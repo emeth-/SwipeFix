@@ -1,0 +1,8 @@
+Django==1.6
+dj-database-url==0.2.2
+dj-static==0.0.5
+gunicorn==18.0
+static==0.4
+simple-salesforce==0.62.0
+django-sslserver==0.13
+psycopg2==2.5.1

@@ -1,0 +1,27 @@
+<div class="opp-container opp-profile-opener carousel" data-id="{{opp.id}}" data-id_="{{opp.id}}_{{slugify subkey}}" data-data_type="{{slugify subkey}}">
+    <ul class="list-unstyled">
+        <li>
+            <div class="control">
+                <span>{{default_text}}</span>
+                <span class="glyphicon glyphicon-ok"></span>
+            </div>
+        </li>
+        <li>
+            <div class="row">
+                <div class="col-xs-2 icon-hole">
+                    {{{iconify subkey}}}
+                </div>
+                <div class="col-xs-10">
+                    <p><strong>{{opp.name}}</strong></p>
+                    <p>{{text}}</p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="control">
+                <span class="glyphicon glyphicon-pencil"></span>
+                <span>{{edit_thing}}</span>
+            </div>
+        </li>
+    </ul>
+</div>
